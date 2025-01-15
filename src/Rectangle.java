@@ -1,20 +1,22 @@
-class Circle implements Shape {
-    private double radius;
+class Rectangle implements Shape {
+    private double width;
+    private double height;
     private String fillColor;
     private String borderColor;
 
-    public Circle(double radius, String fillColor, String borderColor) {
-        this.radius = radius;
+    public Rectangle(double width, double height, String fillColor, String borderColor) {
+        this.width = width;
+        this.height = height;
         this.fillColor = fillColor;
         this.borderColor = borderColor;
     }
 
     public double calculatePerimeter() {
-        return 2 * Math.PI * radius;
+        return 2 * (width + height);
     }
 
     public double calculateArea() {
-        return Math.PI * radius * radius;
+        return width * height;
     }
 
     public String getFillColor() {
@@ -25,4 +27,3 @@ class Circle implements Shape {
         return borderColor;
     }
 }
-
