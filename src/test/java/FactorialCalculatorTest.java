@@ -1,3 +1,6 @@
+package test.java;
+
+import main.java.FactorialCalculator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

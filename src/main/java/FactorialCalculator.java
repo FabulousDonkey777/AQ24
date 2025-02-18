@@ -1,3 +1,5 @@
+package main.java;
+
 public class FactorialCalculator {
 
     public static long calculateFactorial(int n) {
