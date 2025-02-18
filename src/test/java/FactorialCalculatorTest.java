@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class FactorialCalculatorTest {
 
     @Test
-    public void testFactorialOfZero() {
+    public void  testFactorialOfZero() {
         assertEquals(1, FactorialCalculator.calculateFactorial(0));
     }
 
