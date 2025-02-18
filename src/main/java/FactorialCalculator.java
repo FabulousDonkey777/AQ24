@@ -1,6 +1,6 @@
 public class FactorialCalculator {
 
-    public static long calculateFactorial (int n) {
+    public static long calculateFactorial(int n) {
         if (n < 0) {
             throw new IllegalArgumentException("Факториал отрицательного числа не существует.");
         }

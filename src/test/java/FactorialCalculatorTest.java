@@ -9,7 +9,7 @@ public class FactorialCalculatorTest {
     }
 
     @Test
-    public void testFactorialOfPositiveNumber() {
+    public void  testFactorialOfPositiveNumber() {
         assertEquals(120, FactorialCalculator.calculateFactorial(5));
         assertEquals(720, FactorialCalculator.calculateFactorial(6));
     }
